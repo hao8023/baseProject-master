@@ -106,7 +106,7 @@ public class MineFragment extends Fragment {
      * 清理缓存
      */
     private void onClickCleanCache() {
-        DialogHelp.getConfirmDialog(getActivity(), "是否清空缓存?", new DialogInterface.OnClickListener
+        DialogHelp.getConfirmDialog(getActivity(), "清空缓存吗?", new DialogInterface.OnClickListener
                 () {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
